@@ -1,0 +1,43 @@
+.table1 table,
+.table1 td {
+    border: 1px solid #333;
+}
+
+.table1 thead,
+.table1 tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.yellow-highlight {
+    background-color: lightyellow;
+}
+
+.blue-highlight {
+    background-color: lightblue;
+}
+
+.green-highlight {
+    background-color: lightgreen;
+}
+
+.table2{
+    text-align: center;
+}
+
+.table3 table, .table3 td, .table3 th{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table3 table {
+    width: 50%;
+}
+
+.table3-footer{
+    background-color: blue;
+}
+.table3-header{
+    background-color: greenyellow;
+}

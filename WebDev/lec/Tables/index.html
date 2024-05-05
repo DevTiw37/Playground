@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+    <section class="table1">
+        <table>
+            <caption>Product List</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Extended</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hard Disk</td>
+                    <td>1</td>
+                    <td>500$</td>
+                    <td>400$</td>
+                </tr>
+                <tr>
+                    <td>Cd Drive</td>
+                    <td>1</td>
+                    <td>200$</td>
+                    <td>500$</td>
+                </tr>
+                <tr>
+                    <td>Cds</td>
+                    <td>10</td>
+                    <td>20$</td>
+                    <td>50$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Amount</td>
+                    <td>50$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <br><br><br>
+
+    <section class="table2">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td rowspan="2" class="yellow-highlight">8:00am</td>
+                    <td rowspan="2" class="blue-highlight">5:00pm</td>
+                    <td>Introduction to XML</td>
+                </tr>
+                <tr>
+                    <td>Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td class="yellow-highlight">8:00am</td>
+                    <td class="yellow-highlight">11:00am</td>
+                    <td rowspan="">XPath</td>
+                </tr>
+                <tr>
+                    <td class="yellow-highlight">11:00am</td>
+                    <td class="green-highlight">2:00pm</td>
+                    <td rowspan="2">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td class="green-highlight">2:00pm</td>
+                    <td class="blue-highlight">5:00pm</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td class="yellow-highlight">8:00am</td>
+                    <td class="green-highlight">12:00pm</td>
+                    <td>XSL Formatting Objects</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </section>
+
+    <br><br><br>
+
+    <section class="table3">
+        <table>
+            <thead class="table3-header">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th colspan="2">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Aziz</td>
+                    <td rowspan="2">26</td>
+                    <td>Chicago</td>
+                    <td>IL</td>
+                </tr>
+                <tr>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                </tr>
+                <tr>
+                    <td>Jen</td>
+                    <td>40</td>
+                    <td>New York</td>
+                    <td>NY</td>
+                </tr>
+                <tr>
+                    <td>Jordan</td>
+                    <td>29</td>
+                    <td>London</td>
+                    <td>UK</td>
+                </tr>
+            </tbody>
+            <tfoot class="table3-footer">
+                <tr>
+                    <td colspan="4">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+
+</body>
+
+</html>

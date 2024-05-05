@@ -1,0 +1,7 @@
+In Emmet Abbrivation you can use
+        > - For making child element
+        + - For making sibling element
+        * - For making multiple elements
+        [attribute_name=value] - for writing attribute of an element
+        {} - For writing content of an element
+        () - to group elements

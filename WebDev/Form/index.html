@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project Management</h1>
+        <form action="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="project-name">Project Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="ProjName" id="project-name" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="assignement">
+                           Assigned to: 
+                        </label>
+                    </td>
+                    <td>
+                        <select name="Assignement" id="assignement">
+                            <option value="choose">-Choose one-</option>
+                            <option value="alpha">Mr Alpha</option>
+                            <option value="beta">Mr Beta</option>
+                            <option value="gama">MR Gama</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="startDate">Start Date: </label>
+                    </td>
+                    <td>
+                        <input type="date" name="StartDate" id="startDate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endDate">End Date: </label>
+                    </td>
+                    <td>
+                        <input type="date" name="EndDate" id="endDate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="priority">Priority: </label>
+                    </td>
+                    <td>
+                        <div id="priority">
+                            <input type="radio" name="Range" id="high">
+                            <label for="high">High</label>
+                            <input type="radio" name="Range" id="average">
+                            <label for="high">Average</label>
+                            <input type="radio" name="Range" id="low">
+                            <label for="high">Low</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="description">Description: </label>
+                    </td>
+                    <td>
+                        <textarea name="Description" id="description" cols="20" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" name="Submit" id="submit" value="submit">
+                        <input type="reset" name="Reset" id="clear" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
