@@ -1,9 +1,12 @@
-lower, upper = map(int, input("Enter lower and upper intervel: ").split())
-
-for num in range(lower, upper+1):
-    if num > 1:
-        for i in range(2,num):
-            if num%i==0:
-                break
-        else:
-            print(num)
+num = int(input("Enter a positive integer: "))
+a,b = 0,1
+print(a)
+print(b)
+if num <= 0:
+    print("Enter positive integer")
+else:
+    for i in range(3,num+1):
+        c = a + b
+        print(c)
+        a = b
+        b = c
