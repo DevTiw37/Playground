@@ -1,0 +1,1 @@
+k = open("new_text.txt", "w")

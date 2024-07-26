@@ -18,5 +18,7 @@ while play == "n" or play == "N":
         print("That was pritty close! but it's greater. Correct answer is", rnum)
     elif num > rnum:
         print("No! it's greater. Correct answer is", rnum)
+
     play = input("Do you want to quit? Y or N: ")
-    
+    if play == "y" or play == "Y":
+        print("Thankyou for playing!")
